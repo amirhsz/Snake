@@ -1,0 +1,84 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+enum Direction{
+    R,
+    L,
+    D,
+    U
+}
+
+abstract Piece{
+    Point p
+    'Constructor, Getter and Setter for p
+    abstract String getType()
+}
+
+class Fruit{
+
+}
+
+class Body{
+    void Move()
+}
+
+class Point{
+    private int x,y
+    'Constructor, Getter and Setter for x, y;
+}
+
+class Table{
+    int w,h
+    Table instance
+    'Constructor, Getter and Setter for x, y;
+    final List<Point> points
+    List<Fruit> fruits
+    final Snake snake
+    final Strategy strategy
+    'Constructor
+    synchronized Table getInstance()
+}
+
+class Snake{
+    Strategy s
+    List<Body> body
+    void Move(int d)
+    Body head
+
+}
+
+abstract Strategy{
+    final String head,body,fruit
+    'Getter and Setter
+    abstract void Execute(int d)
+    'If died set die value true in MainThread
+}
+
+class UsualMode{
+
+}
+
+class MainThread{
+    boolean die
+    void run()abstract
+}
+
+Point<||-- Table
+Snake<||-- Table
+Fruit<||-- Table
+Strategy<||--Snake
+Point<||--Piece
+Body<||--Snake
+Table<||--MainThread
+Table<||--Strategy
+Strategy<||--Table
+MainThread<||--View
+View<||--MainThread
+Direction<||--View
+'View means our GUI
+
+Piece<|-- Fruit
+Piece<|-- Body
+Strategy<|-- UsualMode
+
+@enduml

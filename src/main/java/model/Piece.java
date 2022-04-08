@@ -1,14 +1,14 @@
 package inc.faregh.model;
 //TODO
 /**
- * it can be Fruit or Body
+ * it can be {@link inc.faregh.model.Fruit} or Body
  */
 public abstract class Piece {
 
     /**
      * location of our object
      */
-    private Point p;
+    protected Point p;
 
     /**
      * make Piece(fruit or body) with a known position

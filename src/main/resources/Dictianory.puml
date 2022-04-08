@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/deployment-diagram
+
+A<||--B
+'B uses A
+C<|--D
+'D is child of C
+
+
+@enduml

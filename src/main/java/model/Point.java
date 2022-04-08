@@ -14,6 +14,8 @@ public class Point {
      * constructor
      * @param x X of our object
      * @param y Y of our object
+     * @see Point#x
+     * @see Point#y
      */
     public Point(int x, int y) {
         this.x = x;
@@ -23,6 +25,7 @@ public class Point {
     /**
      * get X
      * @return X of our object
+     * @see Point#x
      */
     public int getX() {
         return x;
@@ -31,6 +34,7 @@ public class Point {
     /**
      * set X value of our object
      * @param x new X of our object
+     * @see Point#x
      */
     public void setX(int x) {
         this.x = x;
@@ -39,6 +43,7 @@ public class Point {
     /**
      * get Y
      * @return Y of our object
+     * @see Point#y
      */
     public int getY() {
         return y;
@@ -47,6 +52,7 @@ public class Point {
     /**
      * set Y value of our object
      * @param y new Y of our object
+     * @see Point#y
      */
     public void setY(int y) {
         this.y = y;

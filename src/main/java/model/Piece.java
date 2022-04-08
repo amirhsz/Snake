@@ -1,5 +1,7 @@
 package inc.faregh.model;
 
+import java.util.Objects;
+
 /**
  * it can be {@link Fruit} or {@link Body}
  */
@@ -35,6 +37,21 @@ public abstract class Piece {
      */
     public void setP(Point p) {
         this.p = p;
+    }
+
+    /**
+     * @param o the object to compare with us
+     * @return If our position equals parameter position returns true
+     * @see Point#equals(Object)
+     */
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Piece)) return false;
+
+        Piece piece = (Piece) o;
+
+        return Objects.equals(p, piece.p);
     }
 
     /**

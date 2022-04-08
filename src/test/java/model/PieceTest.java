@@ -23,5 +23,15 @@ class PieceTest {
     void setP() {
         f.setP(new Point(1,1));
         Assertions.assertEquals(f.getP(),new Point(1,1));
+        f.setP(new Point(0,0));
     }
+
+    @Test
+    void equal(){
+        Assertions.assertTrue(f.equals(b));
+        Assertions.assertTrue(b.equals(f));
+        Assertions.assertFalse(f.equals(new Object()));
+        Assertions.assertFalse(b.equals(new Object()));
+    }
+
 }

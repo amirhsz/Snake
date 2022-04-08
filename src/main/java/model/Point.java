@@ -41,14 +41,6 @@ public class Point {
     }
 
     /**
-     * @return a human-readable String to know the object values
-     */
-    @Override
-    public String toString() {
-        return "x="+x+", y="+y;
-    }
-
-    /**
      * get Y
      * @return Y of our object
      * @see Point#y
@@ -64,6 +56,14 @@ public class Point {
      */
     public void setY(int y) {
         this.y = y;
+    }
+
+    /**
+     * @return a human-readable String to know the object values
+     */
+    @Override
+    public String toString() {
+        return "x="+x+", y="+y;
     }
 
 }

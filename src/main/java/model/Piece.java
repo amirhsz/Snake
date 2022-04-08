@@ -1,7 +1,7 @@
 package inc.faregh.model;
-//TODO
+
 /**
- * it can be {@link inc.faregh.model.Fruit} or Body
+ * it can be {@link Fruit} or {@link Body}
  */
 public abstract class Piece {
 
@@ -35,6 +35,14 @@ public abstract class Piece {
      */
     public void setP(Point p) {
         this.p = p;
+    }
+
+    /**
+     * @return a human-readable String to know the object values
+     */
+    @Override
+    public String toString() {
+        return "p="+p;
     }
 
 }

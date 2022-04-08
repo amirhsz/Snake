@@ -59,6 +59,18 @@ public class Point {
     }
 
     /**
+     * @param o the object to compare with us
+     * @return If our position equals parameter position returns true
+     */
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Point)) return false;
+        Point point = (Point) o;
+        return x == point.x && y == point.y;
+    }
+
+    /**
      * @return a human-readable String to know the object values
      */
     @Override

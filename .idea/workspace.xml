@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd80df6f-06fe-4a09-817d-2d3f9cb01c02" name="Changes" comment="PointTest is generated and toString method added to Point" />
+    <list default="true" id="bd80df6f-06fe-4a09-817d-2d3f9cb01c02" name="Changes" comment="toString method added to Piece">
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Point.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649454186326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="toString method added to Piece">
+      <created>1649454523956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649454523956</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +175,7 @@
     <MESSAGE value="Fruit done. p is protected now" />
     <MESSAGE value="Body done. move method  removed because we can use setP()" />
     <MESSAGE value="PointTest is generated and toString method added to Point" />
-    <option name="LAST_COMMIT_MESSAGE" value="PointTest is generated and toString method added to Point" />
+    <MESSAGE value="toString method added to Piece" />
+    <option name="LAST_COMMIT_MESSAGE" value="toString method added to Piece" />
   </component>
 </project>

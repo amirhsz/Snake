@@ -36,4 +36,13 @@ class PointTest {
         Assertions.assertEquals(point.getY(),1);
         point.setY(0);
     }
+
+    @Test
+    void equal(){
+        Assertions.assertTrue(point.equals(new Point(0, 0)));
+        Assertions.assertFalse(point.equals(new Point(0, 1)));
+        Assertions.assertFalse(point.equals(new Point(1, 0)));
+        Assertions.assertFalse(point.equals(new Point(1, 1)));
+    }
+
 }

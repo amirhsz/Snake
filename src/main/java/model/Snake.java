@@ -43,4 +43,9 @@ public class Snake {
         this.head = head;
     }
 
+    @Override
+    public String toString(){
+        return "Strategy: "+strategy+",\tHead: "+head+",\tBody: "+body.toString();
+    }
+
 }

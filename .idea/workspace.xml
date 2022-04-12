@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd80df6f-06fe-4a09-817d-2d3f9cb01c02" name="Changes" comment="equal method added to Point class.&#10;test of equal method passed.&#10;test of Piece and its children passed.">
+    <list default="true" id="bd80df6f-06fe-4a09-817d-2d3f9cb01c02" name="Changes" comment="equal method added to Piece test and class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <recent name="inc.faregh.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.run">
+  <component name="RunManager" selected="Gradle.PieceTest">
     <configuration name="run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="inc.faregh.App" />
       <module name="Snake.main" />
@@ -106,6 +105,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;inc.faregh.model.PieceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PieceTest.equal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;inc.faregh.model.PieceTest.equal&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,8 +185,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PointTest" />
         <item itemvalue="Gradle.PieceTest" />
+        <item itemvalue="Gradle.PieceTest.equal" />
+        <item itemvalue="Gradle.PointTest" />
         <item itemvalue="Gradle.PointTest.equal" />
       </list>
     </recent_temporary>
@@ -213,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649455561266</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="equal method added to Piece test and class.">
+      <created>1649456043289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649456043289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +263,7 @@
     <MESSAGE value="PointTest is generated and toString method added to Point" />
     <MESSAGE value="toString method added to Piece" />
     <MESSAGE value="equal method added to Point class.&#10;test of equal method passed.&#10;test of Piece and its children passed." />
-    <option name="LAST_COMMIT_MESSAGE" value="equal method added to Point class.&#10;test of equal method passed.&#10;test of Piece and its children passed." />
+    <MESSAGE value="equal method added to Piece test and class." />
+    <option name="LAST_COMMIT_MESSAGE" value="equal method added to Piece test and class." />
   </component>
 </project>

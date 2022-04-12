@@ -1,5 +1,6 @@
 package inc.faregh.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,11 +18,6 @@ public class Snake {
      */
     private List<Body> body;
 
-    /**
-     * Snake's head
-     */
-    private final Body head;
-
     //TODO is this method really needed or we can do it when init??
     /**
      * Randomly make a snake head with special strategy patter
@@ -30,7 +26,6 @@ public class Snake {
     public Snake(Strategy strategy){
         this.strategy = strategy;
         //TODO make a random head
-        head=null;
     }
 
     /**
@@ -40,12 +35,13 @@ public class Snake {
      */
     public Snake(Strategy strategy, Body head){
         this.strategy = strategy;
-        this.head = head;
+        body = new ArrayList<>();
+        body.add(head);
     }
 
     @Override
     public String toString(){
-        return "Strategy: "+strategy+",\tHead: "+head+",\tBody: "+body.toString();
+        return "Strategy: "+strategy+",\tBody: "+body.toString();
     }
 
 }

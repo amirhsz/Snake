@@ -42,7 +42,6 @@ class Snake{
     Strategy s
     List<Body> body
     void Move(int d)
-    Body head
 
 }
 

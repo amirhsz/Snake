@@ -14,7 +14,7 @@ class DirectionTest {
     }
 
     @Test
-    void Oridin(){
+    void Ordinal(){
         Assertions.assertEquals(d.ordinal(),2);
     }
 }

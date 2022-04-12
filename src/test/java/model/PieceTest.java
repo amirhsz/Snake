@@ -14,17 +14,6 @@ class PieceTest {
         b = new Body(p);
         f = new Fruit(p);
     }
-    @Test
-    void getP() {
-        Assertions.assertEquals(b.getP(),new Point(0,0));
-    }
-
-    @Test
-    void setP() {
-        f.setP(new Point(1,1));
-        Assertions.assertEquals(f.getP(),new Point(1,1));
-        f.setP(new Point(0,0));
-    }
 
     @Test
     void equal(){

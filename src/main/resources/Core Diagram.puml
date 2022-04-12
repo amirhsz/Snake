@@ -47,9 +47,7 @@ class Snake{
 }
 
 abstract Strategy{
-    final String head,body,fruit
-    'Getter and Setter
-    abstract void Execute(int d)
+    abstract void Execute(Direction d)
     'If died set die value true in MainThread
 }
 

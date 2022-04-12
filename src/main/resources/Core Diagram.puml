@@ -32,6 +32,7 @@ class Table{
     'Constructor, Getter and Setter for x, y;
     final List<Point> points
     List<Fruit> fruits
+    'add remove
     final Snake snake
     final Strategy strategy
     'Constructor

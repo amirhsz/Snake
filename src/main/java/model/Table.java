@@ -1,5 +1,7 @@
 package inc.faregh.model;
 
+import inc.faregh.model.modes.Strategy;
+
 import java.util.ArrayList;
 import java.util.List;
 

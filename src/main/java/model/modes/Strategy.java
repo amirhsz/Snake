@@ -1,4 +1,6 @@
-package inc.faregh.model;
+package inc.faregh.model.modes;
+
+import inc.faregh.model.Direction;
 
 /**
  * our game mode
